@@ -39,7 +39,7 @@ def find_the_cheese(string)
     else
       return nil
   
-return array(string)
+#return array(string)
 
 end
 end

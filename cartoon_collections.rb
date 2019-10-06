@@ -33,7 +33,7 @@ end
 def find_the_cheese(string)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-    if string.find { |i| i.include?(cheese_types) }
+    if string.find { |i| i.include?(["cheddar", "gouda", "camembert"]) }
       # return array(string)
       
     else

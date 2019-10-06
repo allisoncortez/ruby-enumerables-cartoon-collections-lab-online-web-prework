@@ -30,7 +30,7 @@ end
 
 
 
-def find_the_cheese(string)
+def find_the_cheese
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
     if string.find { |i| i.include?["value1", "value2", "value3"] }
